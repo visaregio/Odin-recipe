@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  text-align: center;
+  margin: auto;
+}
+
+/*For the home page, index.html*/
+#home_bod {
+  background-color: #15202B;
+  color: #FFFFFF;
+}
+
+#home_bod h1 {
+  font-size: 3em;
+  font-family: 'Skranji', cursive;
+}
+
+#home_bod main {
+  background-color: #FFFFFF;
+  color: black;
+  border-style: solid;
+  border-color: #FFFFFF;
+  border-radius: 10px;
+  width: 45%;
+  margin: auto;
+  height: 60vh;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+#home_bod h2 {
+  font-size: 2em;
+  font-family: Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+#home_bod p, #home_bod li {
+  font-size: 1.25em;
+  font-family: Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+#home_bod ul {
+  display: flex;
+  justify-content: center;
+}
+
+#home_bod a {
+  color: #E83159;
+}
+
+
+
+/*Salmon Cake Recipe*/
