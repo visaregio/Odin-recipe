@@ -53,6 +53,7 @@ body {
 
 
 /*Salmon Cake Recipe*/
+
 #recipess {
   margin: auto;
   text-align: center;
@@ -67,6 +68,10 @@ body {
   background-size: cover;
 }
 
+#recipess {
+  font-family: 'Noto Sans Display', sans-serif;
+}
+
 #recipess img {
   width: 20em;
   border-style: ridge;
@@ -76,6 +81,7 @@ body {
 #salmon_cont {
   background-color: #FFFFFF;
   border-radius: 1em;
+  padding-bottom: 1em;
 }
 
 #des {
@@ -86,9 +92,13 @@ body {
 .nut_facts {
   display: flex;
   justify-content: center;
-  list-style-type: square;
+  text-align: left;
   line-height: 2em;
   color: #A77B3A;
+}
+
+.nut_facts ul {
+  list-style-type: square;
 }
 
 .ings {
@@ -111,4 +121,18 @@ body {
   display: flex;
   justify-content: center;
   line-height: 2em;
+}
+
+.to_home {
+  background-color: #15202B;
+  width: 30%;
+  margin: auto;
+  padding: 1.1em 5.5em 1em 5.5em;
+  border-radius: 1.1em 1.1em 0 0;
+  color: #E83159;
+}
+
+.to_home:hover {
+  background-color: #E83159;
+  color: #FFFFFF; 
 }
