@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+#recipess {
+    margin: auto;
+    text-align: center;
+    border-style: none;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    margin-bottom: 4em;
+    margin-top: 4em;
+    border-radius: 1em;
+    background-image: url("../recipes/pics/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #recipess {
+    font-family: 'Noto Sans Display', sans-serif;
+  }
+  
+  #recipess img {
+    width: 20em;
+    border-style: ridge;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+  }
+  
+  #picata_cont {
+    background-color: #FFFFFF;
+    border-radius: 1em;
+    padding-bottom: 1em;
+  }
+  
+  #des {
+    padding-left: 7em;
+    padding-right: 7em;
+  }
+  
+  .nut_facts {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    line-height: 2em;
+    color: #A77B3A;
+  }
+  
+  .nut_facts ul {
+    list-style-type: square;
+  }
+  
+  .ings {
+    display: flex;
+    justify-content: center;
+    line-height: 2em;
+  }
+  
+  .ings ul {
+    text-align: left;
+  }
+  
+  #prep {
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+  
+  .prep {
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    line-height: 2em;
+  }
+  
+  .to_home {
+    background-color: #15202B;
+    width: 30%;
+    margin: auto;
+    padding: 1.1em 5.5em 1em 5.5em;
+    border-radius: 1.1em 1.1em 0 0;
+    color: #E83159;
+  }
+  
+  .to_home:hover {
+    background-color: #E83159;
+    color: #FFFFFF; 
+  }
+  
